@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+   margin:0;
+   padding:0;
+   color:#999;
+  
+}
+#main{
+   position:relative;
+   width:600px;
+   height:400px;
+  	border:1px solid #F00;
+}
+
+.leftSide{
+	width:90px;
+	height:30px;
+	background:#030;
+	cursor:pointer;
+	margin-bottom:5px;
+	position:absolute;
+}
+
+
+.rightSide{
+	width:90px;
+	height:30px;
+	background:#666;
+	cursor:pointer;	
+	position:absolute;
+	margin-bottom:5px;
+}
+
+.setDepth{
+	z-index:999;	
+}
+
+.clear{
+	clear:both;	
+}
+
+
+
+
